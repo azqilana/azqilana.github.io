@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: blue;
+}
+header #burgermenu{
+    display: none;
+}
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    padding: 10px;
+    margin: auto 10px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    box-shadow: 2px 2px 2px 2px yellowgreen;
+}
+nav ul li:active{
+    box-shadow: none;
+    border: none;
+}
+ul li a{
+    padding: 10px;
+    font-weight: 900;
+}
+footer{
+    text-align: center;
+    font-weight: bolder;
+}
