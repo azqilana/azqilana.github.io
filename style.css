@@ -7,15 +7,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
+    position: fixed;
+    width: 100%;
     background-color: blue;
-}
-header #burgermenu{
-    display: none;
 }
 nav {
     padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 nav ul {
@@ -37,7 +36,67 @@ ul li a{
     padding: 10px;
     font-weight: 900;
 }
+main{
+    display: grid;
+}
+#profil{
+    display: grid;
+    padding: 100px 0px 10px 0px;
+    background-color: yellow;
+    justify-items: center
+}
+#profil a{
+    font-weight: bolder;
+}
+#profil img{
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#profil #medsos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#profil #medsos a{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+#profil #medsos a:first-child{
+    background-color: blue;
+}
+#profil #medsos a:nth-child(2){
+    background: linear-gradient(to bottom,blue,#7303c0,red, orange);
+}
+#profil #medsos a:nth-child(3){
+    background: linear-gradient(to bottom,black,grey);
+}
+#profil #medsos a:last-child{
+    background-color: rgb(46, 107, 187);
+}
+
+#about{
+    padding: 10px;
+    background-color: yellowgreen;
+}
+#techk{
+    padding: 10px;
+    background-color: purple ;
+}
+#project{
+    padding: 10px;
+    background-color: rgb(136, 13, 13);
+}
+#contact{
+    padding: 10px;
+    background-color: rgb(13, 160, 0);
+}
 footer{
+    padding: 10px;
+    background-color: chartreuse;
     text-align: center;
     font-weight: bolder;
 }
