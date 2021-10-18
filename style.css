@@ -26,11 +26,6 @@ nav ul li{
     background-color: lightblue;
     border-radius: 10px;
     border: 2px solid yellow;
-    box-shadow: 2px 2px 2px 2px yellowgreen;
-}
-nav ul li:active{
-    box-shadow: none;
-    border: none;
 }
 ul li a{
     padding: 10px;
